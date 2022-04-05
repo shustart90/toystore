@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css.css">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<header>
+				<busket></busket>
+				<search-field></search-field>
+				<div @click="show = !show" id="showButton"><img id= "cartButImg" src="img/shopping-cart.png" alt=""></div>
+		</header>
+		<div>
+			<catalog></catalog>
+		</div>
+		<footer>
+			//
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+	<script src="comp.js"></script>
+	<script src="comp2.js"></script>
+	<script src="search.js"></script>
+	<script src="mian.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+ @font-face {
+    font-family: tryClotherLight;
+    src: url(fonts/tryClotherLight.ttf);
+   }
+
+@font-face {
+	font-family: Stark;
+	src: url(fonts/Stark.otf);
+}
+
+
+body {
+	margin: 0;
+}
+
+#catalog {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px 0px 50px 0px;
+	background: url("img/646.jpg");
+}
+
+.product {
+	text-align: center;
+	margin: 10px 10px 40px 150px;
+	padding-bottom: 30px;
+	background-color: white;
+	border: 1px solid rgba(162, 162, 169, 0.5);
+	font-family: tryClotherLight;
+}
+
+.product img {
+	width: 250px;
+	height: 250px;
+}
+
+header {
+	height: 60px;
+	background-color: rgb(162, 162, 169);
+	border-bottom: 1px solid grey;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#search {
+	width: 150px;
+	height: 20px;
+}
+
+#search-block {
+	margin-right: 50px;
+}
+
+#busket {
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background-color: white;
+	border: 2px solid grey;
+	border-radius: 10px;
+	top: 71px;
+    right: 98px;
+    padding: 10px;
+}
+
+#cartButImg {
+	filter: invert(1);
+}
+
+#showButton {
+	margin-right: 50px;
+} 
+
+#showButton:hover {
+	cursor: pointer;
+}
+
+.itemInBusket {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cartPrice {
+	width: 150px;
+	padding-bottom: 10px;
+}
+
+.totalPrice {
+	width: 130px;
+	text-align: right;
+}
+
+.invisible {
+	display: none;
+}
+
+.title {
+	width: 100%;
+	text-align:center;
+	font-size: 4em;
+	font-family: Stark;
+	padding-bottom: 50px;
+	color:  rgb(234, 56, 56);
+}
+
+#total {
+	    position: absolute;
+    	top: 330px;
+    	width: 95%;
+    	display: flex;
+    	justify-content: space-between;
+}
+#downCart {
+	position: absolute;
+    top: 376px;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+#close {
+	width: 100%;
+	text-align: right;
+}
+
+#butLittle {
+	cursor: pointer;
+	user-select: none;
+	width: 15px;
+}
